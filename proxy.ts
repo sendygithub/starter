@@ -1,0 +1,6 @@
+// proxy.ts
+export { auth as default } from "@/auth";
+
+export const config = {
+  matcher: ["/dashboard/:path*", "/admin/:path*"],
+};
